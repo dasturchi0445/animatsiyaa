@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(17, 201, 63);
+    animation-name: aylana;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aylana {
+    50%{
+        background-color: blue;
+    }
+    50%{
+        transform: translatex(1440px) rotate(360deg);
+    }
+}
